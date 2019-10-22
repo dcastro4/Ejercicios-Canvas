@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+    canvas{
+      margin-top: 15px;
+      border: 1px solid;
+    }
+  </style>
+  <title>Circulo Binario HTML-JAVASCRIPT-CANVAS</title></head>
+<body>
+    <center><canvas id="c" width="1000" height="600"></canvas></center>
+   <script type="text/javascript">
+    function radianes(grados){
+      return grados * Math.PI / 180;
+    }
+
+    var canvas, ctx;
+
+    canvas = document.getElementById("c");
+    ctx = canvas.getContext("2d");
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(315), radianes(360));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(270), radianes(315));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(225), radianes(270));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(180), radianes(225));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(135), radianes(180));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(90), radianes(135));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(45), radianes(90));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 300, radianes(0), radianes(45));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+//----------------------
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(315), radianes(360));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(270), radianes(315));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(225), radianes(270));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(180), radianes(225));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(135), radianes(180));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(90), radianes(135));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(45), radianes(90));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 200, radianes(0), radianes(45));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+    
+//-------------------
+    
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(315), radianes(360));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(270), radianes(315));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(225), radianes(270));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(180), radianes(225));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(135), radianes(180));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(90), radianes(135));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#0C6575";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(45), radianes(90));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    ctx.fillStyle = "#B0B0B0";
+    ctx.beginPath();
+    ctx.moveTo(500,300);
+    ctx.lineTo(500,300);
+    ctx.arc(500, 300, 100, radianes(0), radianes(45));
+    ctx.lineTo(500,300);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.fill();
+
+    </script>
+  </body>
+</html>
